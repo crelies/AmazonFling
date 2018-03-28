@@ -7,36 +7,29 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AmazonFling'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AmazonFling.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Chris Eli/AmazonFling'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Chris Eli' => 'chris.elies13@gmail.com' }
-  s.source           = { :git => 'https://github.com/Chris Eli/AmazonFling.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AmazonFling/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AmazonFling' => ['AmazonFling/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name                    = 'AmazonFling'
+    s.version                 = '0.1.0'
+    s.summary                 = 'Easily integrate the Amazon Fling SDK in your apps.'
+    
+    s.description             = <<-DESC
+        This pod makes it easy to use the Amazon Fling SDK in your apps.
+        Amazon Fling is not open source. That's why you won't find a pod for it.
+        I wanted to integrate the Amazon Fling SDK using Cocoapods in one of my projects.
+        So, I created this pod which contains the binary of the Amazon Fling SDK.
+    DESC
+    
+    s.homepage                = 'https://github.com/crelies/AmazonFling'
+    s.license                 = { :type => 'MIT', :file => 'LICENSE' }
+    s.author                  = { 'Christian Elies' => 'chris.elies13@gmail.com' }
+    s.source                  = { :git => 'https://github.com/crelies/AmazonFling.git', :tag => s.version.to_s }
+    
+    s.ios.deployment_target = '8.0'
+    
+    s.ios.frameworks          = 'CFNetwork', 'Security', 'SystemConfiguration'
+    s.ios.vendored_frameworks = 'Frameworks/AmazonFling.framework'
+    
+    s.dependency              'Bolts', '1.5.1'
+    
+    s.static_framework        = true
+    s.user_target_xcconfig    = { 'OTHER_LDFLAGS' => '-lc++' }
 end

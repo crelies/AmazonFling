@@ -1,0 +1,24 @@
+PODS:
+  - AmazonFling (0.1.0):
+    - Bolts (= 1.5.1)
+  - Bolts (1.5.1):
+    - Bolts/AppLinks (= 1.5.1)
+    - Bolts/Tasks (= 1.5.1)
+  - Bolts/AppLinks (1.5.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.5.1)
+
+DEPENDENCIES:
+  - AmazonFling (from `../`)
+
+EXTERNAL SOURCES:
+  AmazonFling:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AmazonFling: 8331770b56ed732793184a563dbbc3940655ad3f
+  Bolts: a12663244b1d3351c738882e71902fc74db54f64
+
+PODFILE CHECKSUM: da7a333ed6dde133fd4767c9650a4c05a2fa3931
+
+COCOAPODS: 1.4.0

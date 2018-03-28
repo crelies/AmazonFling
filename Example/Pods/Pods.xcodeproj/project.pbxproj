@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008837705C8402AA0D2B27C6E3A98ADE /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D791AC46BCE8929FB51BA29AFACE36 /* BFCancellationTokenRegistration.m */; };
+		0D3B5B36746BFA1C2CBFFCDC0C5CCD8F /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9B40B7D200686422C74FB7C5D251FC /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189AA0A69319318EF2789D18FA4AF73C /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 247ACB351B7C4D5E7DFC123CEA65D204 /* BFTask.m */; };
+		1A6FEF1A5AA4A51BC29BAA06CDB8D9CA /* BFDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D709911BB86B0DB0B69DCC8AA5D0F8 /* BFDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25FF85C75AC939034DFAA0134E043B72 /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = A713939572CB4DCE163AFABC0B19A188 /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B16B2E776B455CC1D4914585B2457C0 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9211B002DA401038CA3EB4F22FE88361 /* BFAppLinkReturnToRefererView_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6A2804A5096BC2B9DFF3EC19E35E5E /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118EC0C0ABF191C12B26AA860D0405D9 /* BFAppLinkReturnToRefererController.m */; };
+		2B776A30CDD6F4231A63092AE3F34F95 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DE81DB17C78B206082D34E9FA609BF40 /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33547FEB3F6E2C7B6D90981D937B59C1 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B81643A267EB9A0963BC4134D143F7C /* BFTaskCompletionSource.m */; };
+		353BFB31FCAC9EB4A74201C57AC7643A /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 748E394CF955EFD54FB1F9473EB3BF4F /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D49F4393B4FDC87C5B02C69AE36C54 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F8903BF15C1275123710733B668C18 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E057D367C56DD37EDF210355CC56BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4B2274BAE516C367A2D2D32410BC68DF /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B434A83CFD5EF9116053512612407A /* BFWebViewAppLinkResolver.m */; };
+		54FC7127D039DB59750D410ADD17162C /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B400FF114684B38DA01FAFB1FF14350 /* BFExecutor.m */; };
+		60A7D3D0F8DDB95DFBBE7C0EE3493778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6B3F26D10A2CA3A4693687310C9F5EE9 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 828B567725C3445576ADCE56940B6BF2 /* BFURL_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76EC63CDC3304A80D8A0D27D82403A0A /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE1F9B6BA5FD56E91D9CD0D7261EA19 /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		795063B07AD207F089E5A2AE0F6CE362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		819CBF71F87EC658E285BDD027A6E929 /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03C50B77E121A5D70DCFA7A968F493 /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A999CCE64073A5435562FC3BD5AFAB /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D7265FFBF0074D8D8C39B2E41B2375 /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88039C7C21FFCFE5E6D6127B0284DB60 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0D4FAFC047C9F85EA1E742C3BE621 /* BFURL.m */; };
+		88F4760DB9FC1DE189103997248F4ADC /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 874759956F34686ECF57460F876F8425 /* BFMeasurementEvent.m */; };
+		8E735B35CC4A411FF9C621BC2E55CE52 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = B536D62175C67D4D8B56FD8E3AB02715 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		979EFBED9817860DB4D0CE9AFE9DFA45 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C1F7646FB62100F3AD5189D48CCAC /* Bolts.m */; };
+		99DE001F185D1DF36776F2098E4814BD /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A1819BDEC7ADCFE25F1F70DCEFF01C /* BFAppLinkReturnToRefererView.m */; };
+		9C29B33B4F6072FC3634F3FF381C51EA /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7E11F804263345ADE112109B49EC70 /* BFAppLinkTarget.m */; };
+		A9FD32FA89E0C01863C23AA1E9076E4D /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = CADDBF0AA9292DB784517220E62169ED /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD617B7F6C80027FACA81C1053A36D8 /* Pods-AmazonFling_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91736586F8771EA8F0AF748A26EE6C9D /* Pods-AmazonFling_Example-dummy.m */; };
+		B2B06629C7209EB2326DEC515303F4B2 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8359EFDF74CEBEB375000053A29A5451 /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4511B89DC6E764E006834A6076BBDF0 /* Bolts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B11E444C5B722CEA414069792FD969 /* Bolts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59B299FC6131A0F742E207D71A09023 /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E890BEC6E78002248AE0A14BA9B2FC3 /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD020B1F0EA3242C157538301383FF12 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B88686DBAC1FEDCDFC5F2E6715BDE7DC /* BFAppLink.m */; };
+		C5C2BC592D8D226BAFECCC7175DF72B4 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEA5B414C707438D87FF08902CAD4E /* BFAppLinkNavigation.m */; };
+		D54369DD0E54EE78BB8CABF32FA90CAC /* Pods-AmazonFling_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B616B3CAAA70EF01B05FB2AAEFEEA5 /* Pods-AmazonFling_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C2C66123006705DE375D6F296591BE /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7A21C42D9238422F49DD474EE221E1 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAC525B82F11CA2043365D0D638367A /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B187F199C4FDBF5AC6611FA7AA6E8073 /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0AEC7995052E4BAEDC5341BCD00102E /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0E8FB1F23A0CBA8A49025F6C827A2D /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D988CC4785468E5FC3C73FE24DF22B /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = E94EF15DA90345B43B544650E91FDC82 /* BFAppLink_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75A093B6818F2A81D2D8E693D298E7B /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F425E33816DDB0473A5FB62017881654 /* BFCancellationToken.m */; };
+		ED5B34BA1B27E5AA03339397E313AE02 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = B70D98A49C6E2F1234A6F5A6C92CDA00 /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45FFEA41052EC9CEC032D0F3C2641F1 /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C66BCDC1C225E2AF675E90E1B812EA /* BFCancellationTokenSource.m */; };
+		F69A16B42A376CFE0C1FA3BA4B8B8DF6 /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D6971E744D1E5E3E28412C526D8DE8 /* BoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F795495BD5F6F87963697011C8984AFE /* Pods-AmazonFling_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCAD5446750A14EC11477EEB1340A86 /* Pods-AmazonFling_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA08ABE802AAA00ECA993EBA3B5B94A3 /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C76E193956A3295478D593F606ACE154 /* Bolts-dummy.m */; };
+		FA7A506120BB905802399F6D188FE20B /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FB69379C216A7AB035AFA4B049F5266A /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB525527D144222851684923228887C4 /* Pods-AmazonFling_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B352889CFA2D40524CF02A9CEF73E381 /* Pods-AmazonFling_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA2978C050DAA2DD47B7FDE797B4F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D4E09F42ECBE553950B179BF5A9699;
+			remoteInfo = Bolts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B434A83CFD5EF9116053512612407A /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		044371A6B2D18BBADF5AE0B790C10B68 /* Pods-AmazonFling_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmazonFling_Tests.modulemap"; sourceTree = "<group>"; };
+		0AAC715B50EA60B072601C4129D94143 /* Pods-AmazonFling_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmazonFling_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E890BEC6E78002248AE0A14BA9B2FC3 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
+		118EC0C0ABF191C12B26AA860D0405D9 /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
+		1B0E34C722C00CFB3E4DE9B4115EFD29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247ACB351B7C4D5E7DFC123CEA65D204 /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		3B400FF114684B38DA01FAFB1FF14350 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		3B81643A267EB9A0963BC4134D143F7C /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		3EFC687340C8B2DD920BF085B10B4564 /* Pods-AmazonFling_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4145DEC60FB66963A86BCE933377C013 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
+		4C6EE22B405C4A3E6D2F37DD01795274 /* Pods-AmazonFling_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EB1098EE087F20FDDA0844D8E366339 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
+		4F03C50B77E121A5D70DCFA7A968F493 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		501A2EC3FE7EC74EAAE50ECE7A2E02FF /* Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bolts.modulemap; sourceTree = "<group>"; };
+		5A211C0F8405AEE3FEC1C682167B3D1D /* Pods_AmazonFling_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmazonFling_Example.framework; path = "Pods-AmazonFling_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE1F9B6BA5FD56E91D9CD0D7261EA19 /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		5EA36EBABD9707D9662E123A11B44789 /* Pods-AmazonFling_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		61DFBE1AC5AC786EB8B427D43AA5CAE3 /* Pods-AmazonFling_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		62A1819BDEC7ADCFE25F1F70DCEFF01C /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
+		64D6971E744D1E5E3E28412C526D8DE8 /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
+		659C1F7646FB62100F3AD5189D48CCAC /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C3BB92320AF41EB55A29362F35954B3 /* Pods-AmazonFling_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmazonFling_Example.modulemap"; sourceTree = "<group>"; };
+		6D0E8FB1F23A0CBA8A49025F6C827A2D /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		6DFEA5B414C707438D87FF08902CAD4E /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
+		6F35F15295162343E3C29B208462149D /* Pods-AmazonFling_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Tests-resources.sh"; sourceTree = "<group>"; };
+		748E394CF955EFD54FB1F9473EB3BF4F /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
+		76B11E444C5B722CEA414069792FD969 /* Bolts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-umbrella.h"; sourceTree = "<group>"; };
+		7A5046A022ADD7EB70BCE9FC5585B900 /* Pods-AmazonFling_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		815BB41C690D8BE6259E7A4AD035B1B6 /* Pods-AmazonFling_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Example.release.xcconfig"; sourceTree = "<group>"; };
+		828B567725C3445576ADCE56940B6BF2 /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/BFURL_Internal.h; sourceTree = "<group>"; };
+		8359EFDF74CEBEB375000053A29A5451 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		874759956F34686ECF57460F876F8425 /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
+		89C66BCDC1C225E2AF675E90E1B812EA /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		8F5359B5493CD39D299F9E084F7E1724 /* Pods-AmazonFling_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmazonFling_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91736586F8771EA8F0AF748A26EE6C9D /* Pods-AmazonFling_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmazonFling_Example-dummy.m"; sourceTree = "<group>"; };
+		9211B002DA401038CA3EB4F22FE88361 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7E11F804263345ADE112109B49EC70 /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
+		A1F8903BF15C1275123710733B668C18 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		A713939572CB4DCE163AFABC0B19A188 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
+		AF7A21C42D9238422F49DD474EE221E1 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		B187F199C4FDBF5AC6611FA7AA6E8073 /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
+		B352889CFA2D40524CF02A9CEF73E381 /* Pods-AmazonFling_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmazonFling_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3B3D48752DB355A0803E586A5D23558 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B536D62175C67D4D8B56FD8E3AB02715 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		B70D98A49C6E2F1234A6F5A6C92CDA00 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
+		B7BCF16AA62F082522E6DC32650A1D67 /* Pods_AmazonFling_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmazonFling_Tests.framework; path = "Pods-AmazonFling_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88686DBAC1FEDCDFC5F2E6715BDE7DC /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		C5FDC8E940389E08EB15E45B9038FA4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C73F45A16E0C1F5721BE75BE5A323B38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76E193956A3295478D593F606ACE154 /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
+		C77ED2399C15D584BD67E9FC127844DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CADDBF0AA9292DB784517220E62169ED /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		CBCAD5446750A14EC11477EEB1340A86 /* Pods-AmazonFling_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmazonFling_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CD9B40B7D200686422C74FB7C5D251FC /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
+		D15B1D92807A65B98497556013F9971C /* AmazonFling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmazonFling.framework; path = Frameworks/AmazonFling.framework; sourceTree = "<group>"; };
+		D4D709911BB86B0DB0B69DCC8AA5D0F8 /* BFDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFDefines.h; path = Bolts/Common/BFDefines.h; sourceTree = "<group>"; };
+		DAD0D4FAFC047C9F85EA1E742C3BE621 /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
+		DE81DB17C78B206082D34E9FA609BF40 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		E2D791AC46BCE8929FB51BA29AFACE36 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		E535AE77BF7324EA275D951E0484ED60 /* Pods-AmazonFling_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Example-resources.sh"; sourceTree = "<group>"; };
+		E5D7265FFBF0074D8D8C39B2E41B2375 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
+		E94EF15DA90345B43B544650E91FDC82 /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/BFAppLink_Internal.h; sourceTree = "<group>"; };
+		EA41957AD29C4C6131DF78DEC7132D0D /* Pods-AmazonFling_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBC6D5EC5F95E5C14B8530A322FB2F9E /* Pods-AmazonFling_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EF0F2BCA0FD058E26E762FC04AB16AC4 /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bolts.framework; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EE6E49FDC36561489734DBD7D23400 /* AmazonFling.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AmazonFling.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F425E33816DDB0473A5FB62017881654 /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
+		F9B616B3CAAA70EF01B05FB2AAEFEEA5 /* Pods-AmazonFling_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmazonFling_Example-umbrella.h"; sourceTree = "<group>"; };
+		FB69379C216A7AB035AFA4B049F5266A /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662B72AAF2E1479D6BBD80DD86268F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A7D3D0F8DDB95DFBBE7C0EE3493778 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73FCC303331EBF7E0C16CEB023D723A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795063B07AD207F089E5A2AE0F6CE362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7672C132A72DA6D64728C4205968E858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E057D367C56DD37EDF210355CC56BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2484AEB2F812A848251AB665D4DD728C /* AmazonFling */ = {
+			isa = PBXGroup;
+			children = (
+				754E9A99905581DC23958E87AC7688A0 /* Frameworks */,
+				A0771F9090FD95405996DA99C94E08F1 /* Pod */,
+			);
+			name = AmazonFling;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4BF4D9226E5C157E978BA25A6ECEF8DD /* Pods-AmazonFling_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0E34C722C00CFB3E4DE9B4115EFD29 /* Info.plist */,
+				044371A6B2D18BBADF5AE0B790C10B68 /* Pods-AmazonFling_Tests.modulemap */,
+				0AAC715B50EA60B072601C4129D94143 /* Pods-AmazonFling_Tests-acknowledgements.markdown */,
+				7A5046A022ADD7EB70BCE9FC5585B900 /* Pods-AmazonFling_Tests-acknowledgements.plist */,
+				B352889CFA2D40524CF02A9CEF73E381 /* Pods-AmazonFling_Tests-dummy.m */,
+				5EA36EBABD9707D9662E123A11B44789 /* Pods-AmazonFling_Tests-frameworks.sh */,
+				6F35F15295162343E3C29B208462149D /* Pods-AmazonFling_Tests-resources.sh */,
+				CBCAD5446750A14EC11477EEB1340A86 /* Pods-AmazonFling_Tests-umbrella.h */,
+				4C6EE22B405C4A3E6D2F37DD01795274 /* Pods-AmazonFling_Tests.debug.xcconfig */,
+				61DFBE1AC5AC786EB8B427D43AA5CAE3 /* Pods-AmazonFling_Tests.release.xcconfig */,
+			);
+			name = "Pods-AmazonFling_Tests";
+			path = "Target Support Files/Pods-AmazonFling_Tests";
+			sourceTree = "<group>";
+		};
+		754E9A99905581DC23958E87AC7688A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D15B1D92807A65B98497556013F9971C /* AmazonFling.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				900464E6B9262C66D66BAD223563A028 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				855F43B83B23AC016B717046AAA8B6C5 /* Pods */,
+				96DA9027BD4BD0E511A180C35AEC5597 /* Products */,
+				C3FDD8E224E95FE8504A7AF9F24741E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		855F43B83B23AC016B717046AAA8B6C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24ECF46B7ABE528DD27AD3DC07E9409 /* Bolts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F8926CEAD5971B066E4BB3792665860 /* Pods-AmazonFling_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B3B3D48752DB355A0803E586A5D23558 /* Info.plist */,
+				6C3BB92320AF41EB55A29362F35954B3 /* Pods-AmazonFling_Example.modulemap */,
+				8F5359B5493CD39D299F9E084F7E1724 /* Pods-AmazonFling_Example-acknowledgements.markdown */,
+				EA41957AD29C4C6131DF78DEC7132D0D /* Pods-AmazonFling_Example-acknowledgements.plist */,
+				91736586F8771EA8F0AF748A26EE6C9D /* Pods-AmazonFling_Example-dummy.m */,
+				EBC6D5EC5F95E5C14B8530A322FB2F9E /* Pods-AmazonFling_Example-frameworks.sh */,
+				E535AE77BF7324EA275D951E0484ED60 /* Pods-AmazonFling_Example-resources.sh */,
+				F9B616B3CAAA70EF01B05FB2AAEFEEA5 /* Pods-AmazonFling_Example-umbrella.h */,
+				3EFC687340C8B2DD920BF085B10B4564 /* Pods-AmazonFling_Example.debug.xcconfig */,
+				815BB41C690D8BE6259E7A4AD035B1B6 /* Pods-AmazonFling_Example.release.xcconfig */,
+			);
+			name = "Pods-AmazonFling_Example";
+			path = "Target Support Files/Pods-AmazonFling_Example";
+			sourceTree = "<group>";
+		};
+		900464E6B9262C66D66BAD223563A028 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2484AEB2F812A848251AB665D4DD728C /* AmazonFling */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		96DA9027BD4BD0E511A180C35AEC5597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0F2BCA0FD058E26E762FC04AB16AC4 /* Bolts.framework */,
+				5A211C0F8405AEE3FEC1C682167B3D1D /* Pods_AmazonFling_Example.framework */,
+				B7BCF16AA62F082522E6DC32650A1D67 /* Pods_AmazonFling_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D5EEF8F3F6FFC8769340A335B989E95 /* AppLinks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE1F9B6BA5FD56E91D9CD0D7261EA19 /* BFAppLink.h */,
+				B88686DBAC1FEDCDFC5F2E6715BDE7DC /* BFAppLink.m */,
+				E94EF15DA90345B43B544650E91FDC82 /* BFAppLink_Internal.h */,
+				B70D98A49C6E2F1234A6F5A6C92CDA00 /* BFAppLinkNavigation.h */,
+				6DFEA5B414C707438D87FF08902CAD4E /* BFAppLinkNavigation.m */,
+				0E890BEC6E78002248AE0A14BA9B2FC3 /* BFAppLinkResolving.h */,
+				CD9B40B7D200686422C74FB7C5D251FC /* BFAppLinkReturnToRefererController.h */,
+				118EC0C0ABF191C12B26AA860D0405D9 /* BFAppLinkReturnToRefererController.m */,
+				8359EFDF74CEBEB375000053A29A5451 /* BFAppLinkReturnToRefererView.h */,
+				62A1819BDEC7ADCFE25F1F70DCEFF01C /* BFAppLinkReturnToRefererView.m */,
+				9211B002DA401038CA3EB4F22FE88361 /* BFAppLinkReturnToRefererView_Internal.h */,
+				E5D7265FFBF0074D8D8C39B2E41B2375 /* BFAppLinkTarget.h */,
+				9E7E11F804263345ADE112109B49EC70 /* BFAppLinkTarget.m */,
+				748E394CF955EFD54FB1F9473EB3BF4F /* BFMeasurementEvent.h */,
+				874759956F34686ECF57460F876F8425 /* BFMeasurementEvent.m */,
+				FB69379C216A7AB035AFA4B049F5266A /* BFMeasurementEvent_Internal.h */,
+				A713939572CB4DCE163AFABC0B19A188 /* BFURL.h */,
+				DAD0D4FAFC047C9F85EA1E742C3BE621 /* BFURL.m */,
+				828B567725C3445576ADCE56940B6BF2 /* BFURL_Internal.h */,
+				4F03C50B77E121A5D70DCFA7A968F493 /* BFWebViewAppLinkResolver.h */,
+				02B434A83CFD5EF9116053512612407A /* BFWebViewAppLinkResolver.m */,
+			);
+			name = AppLinks;
+			sourceTree = "<group>";
+		};
+		A0771F9090FD95405996DA99C94E08F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0EE6E49FDC36561489734DBD7D23400 /* AmazonFling.podspec */,
+				C77ED2399C15D584BD67E9FC127844DE /* LICENSE */,
+				C5FDC8E940389E08EB15E45B9038FA4E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A52F7E2C0046120C503CA5BFCA81E8B9 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				B187F199C4FDBF5AC6611FA7AA6E8073 /* BFCancellationToken.h */,
+				F425E33816DDB0473A5FB62017881654 /* BFCancellationToken.m */,
+				B536D62175C67D4D8B56FD8E3AB02715 /* BFCancellationTokenRegistration.h */,
+				E2D791AC46BCE8929FB51BA29AFACE36 /* BFCancellationTokenRegistration.m */,
+				A1F8903BF15C1275123710733B668C18 /* BFCancellationTokenSource.h */,
+				89C66BCDC1C225E2AF675E90E1B812EA /* BFCancellationTokenSource.m */,
+				D4D709911BB86B0DB0B69DCC8AA5D0F8 /* BFDefines.h */,
+				CADDBF0AA9292DB784517220E62169ED /* BFExecutor.h */,
+				3B400FF114684B38DA01FAFB1FF14350 /* BFExecutor.m */,
+				6D0E8FB1F23A0CBA8A49025F6C827A2D /* BFTask.h */,
+				247ACB351B7C4D5E7DFC123CEA65D204 /* BFTask.m */,
+				DE81DB17C78B206082D34E9FA609BF40 /* BFTaskCompletionSource.h */,
+				3B81643A267EB9A0963BC4134D143F7C /* BFTaskCompletionSource.m */,
+				AF7A21C42D9238422F49DD474EE221E1 /* Bolts.h */,
+				659C1F7646FB62100F3AD5189D48CCAC /* Bolts.m */,
+				64D6971E744D1E5E3E28412C526D8DE8 /* BoltsVersion.h */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3FDD8E224E95FE8504A7AF9F24741E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F8926CEAD5971B066E4BB3792665860 /* Pods-AmazonFling_Example */,
+				4BF4D9226E5C157E978BA25A6ECEF8DD /* Pods-AmazonFling_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D20BBC9F50A2C565EC01663C8929A935 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				501A2EC3FE7EC74EAAE50ECE7A2E02FF /* Bolts.modulemap */,
+				4145DEC60FB66963A86BCE933377C013 /* Bolts.xcconfig */,
+				C76E193956A3295478D593F606ACE154 /* Bolts-dummy.m */,
+				4EB1098EE087F20FDDA0844D8E366339 /* Bolts-prefix.pch */,
+				76B11E444C5B722CEA414069792FD969 /* Bolts-umbrella.h */,
+				C73F45A16E0C1F5721BE75BE5A323B38 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bolts";
+			sourceTree = "<group>";
+		};
+		D24ECF46B7ABE528DD27AD3DC07E9409 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				9D5EEF8F3F6FFC8769340A335B989E95 /* AppLinks */,
+				D20BBC9F50A2C565EC01663C8929A935 /* Support Files */,
+				A52F7E2C0046120C503CA5BFCA81E8B9 /* Tasks */,
+			);
+			name = Bolts;
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ECC9767BEE6817310EC2D43E0953982 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EC63CDC3304A80D8A0D27D82403A0A /* BFAppLink.h in Headers */,
+				E5D988CC4785468E5FC3C73FE24DF22B /* BFAppLink_Internal.h in Headers */,
+				ED5B34BA1B27E5AA03339397E313AE02 /* BFAppLinkNavigation.h in Headers */,
+				B59B299FC6131A0F742E207D71A09023 /* BFAppLinkResolving.h in Headers */,
+				0D3B5B36746BFA1C2CBFFCDC0C5CCD8F /* BFAppLinkReturnToRefererController.h in Headers */,
+				B2B06629C7209EB2326DEC515303F4B2 /* BFAppLinkReturnToRefererView.h in Headers */,
+				2B16B2E776B455CC1D4914585B2457C0 /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
+				87A999CCE64073A5435562FC3BD5AFAB /* BFAppLinkTarget.h in Headers */,
+				DCAC525B82F11CA2043365D0D638367A /* BFCancellationToken.h in Headers */,
+				8E735B35CC4A411FF9C621BC2E55CE52 /* BFCancellationTokenRegistration.h in Headers */,
+				40D49F4393B4FDC87C5B02C69AE36C54 /* BFCancellationTokenSource.h in Headers */,
+				1A6FEF1A5AA4A51BC29BAA06CDB8D9CA /* BFDefines.h in Headers */,
+				A9FD32FA89E0C01863C23AA1E9076E4D /* BFExecutor.h in Headers */,
+				353BFB31FCAC9EB4A74201C57AC7643A /* BFMeasurementEvent.h in Headers */,
+				FA7A506120BB905802399F6D188FE20B /* BFMeasurementEvent_Internal.h in Headers */,
+				E0AEC7995052E4BAEDC5341BCD00102E /* BFTask.h in Headers */,
+				2B776A30CDD6F4231A63092AE3F34F95 /* BFTaskCompletionSource.h in Headers */,
+				25FF85C75AC939034DFAA0134E043B72 /* BFURL.h in Headers */,
+				6B3F26D10A2CA3A4693687310C9F5EE9 /* BFURL_Internal.h in Headers */,
+				819CBF71F87EC658E285BDD027A6E929 /* BFWebViewAppLinkResolver.h in Headers */,
+				B4511B89DC6E764E006834A6076BBDF0 /* Bolts-umbrella.h in Headers */,
+				D9C2C66123006705DE375D6F296591BE /* Bolts.h in Headers */,
+				F69A16B42A376CFE0C1FA3BA4B8B8DF6 /* BoltsVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AFE68725CA10003B7089CE282799E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54369DD0E54EE78BB8CABF32FA90CAC /* Pods-AmazonFling_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8061864E050A2ECD6D4A92E958255A30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F795495BD5F6F87963697011C8984AFE /* Pods-AmazonFling_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		210A98BC1B0E8D8E4F47B78325BA1221 /* Pods-AmazonFling_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3718B69E02B5D7A1B21BBDD80F66358 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Tests" */;
+			buildPhases = (
+				417F076ACF338AF0E06D43B29160F8DD /* Sources */,
+				7672C132A72DA6D64728C4205968E858 /* Frameworks */,
+				8061864E050A2ECD6D4A92E958255A30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AmazonFling_Tests";
+			productName = "Pods-AmazonFling_Tests";
+			productReference = B7BCF16AA62F082522E6DC32650A1D67 /* Pods_AmazonFling_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73F5B07CDDDDE90B7C5D971D0277A933 /* Pods-AmazonFling_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87933D5F677D50089B87B934536E1D04 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Example" */;
+			buildPhases = (
+				794CB1BA4F1BD9A46996A9BF296F4759 /* Sources */,
+				662B72AAF2E1479D6BBD80DD86268F1B /* Frameworks */,
+				57AFE68725CA10003B7089CE282799E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA2683D696BE485EDD5E7FA053BC79E /* PBXTargetDependency */,
+			);
+			name = "Pods-AmazonFling_Example";
+			productName = "Pods-AmazonFling_Example";
+			productReference = 5A211C0F8405AEE3FEC1C682167B3D1D /* Pods_AmazonFling_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6D4E09F42ECBE553950B179BF5A9699 /* Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0924235D36FE4D6225A6E55D7DC63F98 /* Build configuration list for PBXNativeTarget "Bolts" */;
+			buildPhases = (
+				856C5347E3DF4E1B967E7290882346DE /* Sources */,
+				73FCC303331EBF7E0C16CEB023D723A3 /* Frameworks */,
+				1ECC9767BEE6817310EC2D43E0953982 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bolts;
+			productName = Bolts;
+			productReference = EF0F2BCA0FD058E26E762FC04AB16AC4 /* Bolts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 96DA9027BD4BD0E511A180C35AEC5597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D4E09F42ECBE553950B179BF5A9699 /* Bolts */,
+				73F5B07CDDDDE90B7C5D971D0277A933 /* Pods-AmazonFling_Example */,
+				210A98BC1B0E8D8E4F47B78325BA1221 /* Pods-AmazonFling_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417F076ACF338AF0E06D43B29160F8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB525527D144222851684923228887C4 /* Pods-AmazonFling_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794CB1BA4F1BD9A46996A9BF296F4759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD617B7F6C80027FACA81C1053A36D8 /* Pods-AmazonFling_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856C5347E3DF4E1B967E7290882346DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD020B1F0EA3242C157538301383FF12 /* BFAppLink.m in Sources */,
+				C5C2BC592D8D226BAFECCC7175DF72B4 /* BFAppLinkNavigation.m in Sources */,
+				2B6A2804A5096BC2B9DFF3EC19E35E5E /* BFAppLinkReturnToRefererController.m in Sources */,
+				99DE001F185D1DF36776F2098E4814BD /* BFAppLinkReturnToRefererView.m in Sources */,
+				9C29B33B4F6072FC3634F3FF381C51EA /* BFAppLinkTarget.m in Sources */,
+				E75A093B6818F2A81D2D8E693D298E7B /* BFCancellationToken.m in Sources */,
+				008837705C8402AA0D2B27C6E3A98ADE /* BFCancellationTokenRegistration.m in Sources */,
+				F45FFEA41052EC9CEC032D0F3C2641F1 /* BFCancellationTokenSource.m in Sources */,
+				54FC7127D039DB59750D410ADD17162C /* BFExecutor.m in Sources */,
+				88F4760DB9FC1DE189103997248F4ADC /* BFMeasurementEvent.m in Sources */,
+				189AA0A69319318EF2789D18FA4AF73C /* BFTask.m in Sources */,
+				33547FEB3F6E2C7B6D90981D937B59C1 /* BFTaskCompletionSource.m in Sources */,
+				88039C7C21FFCFE5E6D6127B0284DB60 /* BFURL.m in Sources */,
+				4B2274BAE516C367A2D2D32410BC68DF /* BFWebViewAppLinkResolver.m in Sources */,
+				FA08ABE802AAA00ECA993EBA3B5B94A3 /* Bolts-dummy.m in Sources */,
+				979EFBED9817860DB4D0CE9AFE9DFA45 /* Bolts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFA2683D696BE485EDD5E7FA053BC79E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bolts;
+			target = E6D4E09F42ECBE553950B179BF5A9699 /* Bolts */;
+			targetProxy = 7AA2978C050DAA2DD47B7FDE797B4F6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BD0EE7991650D76F656704BC609F5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815BB41C690D8BE6259E7A4AD035B1B6 /* Pods-AmazonFling_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Example/Pods-AmazonFling_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmazonFling_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32CF80C4285625B5A3E670CCC61E7FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4145DEC60FB66963A86BCE933377C013 /* Bolts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bolts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bolts/Bolts.modulemap";
+				PRODUCT_NAME = Bolts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6ABF462314EA9916B30A5EECD75A6CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DFBE1AC5AC786EB8B427D43AA5CAE3 /* Pods-AmazonFling_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Tests/Pods-AmazonFling_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmazonFling_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		874FF1FBBE760DEFEC647975145A2C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFC687340C8B2DD920BF085B10B4564 /* Pods-AmazonFling_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Example/Pods-AmazonFling_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmazonFling_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94D2C8D4CB9EEBBE3A16505AB6D22A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4145DEC60FB66963A86BCE933377C013 /* Bolts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bolts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bolts/Bolts.modulemap";
+				PRODUCT_NAME = Bolts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E76B1CA9ACF9C067BFCB6FF642F56252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6EE22B405C4A3E6D2F37DD01795274 /* Pods-AmazonFling_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Tests/Pods-AmazonFling_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmazonFling_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0924235D36FE4D6225A6E55D7DC63F98 /* Build configuration list for PBXNativeTarget "Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CF80C4285625B5A3E670CCC61E7FF0 /* Debug */,
+				94D2C8D4CB9EEBBE3A16505AB6D22A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87933D5F677D50089B87B934536E1D04 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FF1FBBE760DEFEC647975145A2C89 /* Debug */,
+				0BD0EE7991650D76F656704BC609F5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3718B69E02B5D7A1B21BBDD80F66358 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B1CA9ACF9C067BFCB6FF642F56252 /* Debug */,
+				6ABF462314EA9916B30A5EECD75A6CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
