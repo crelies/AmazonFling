@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AmazonFling_Example' do
+  pod 'AmazonFling', :path => '../'
+
+  target 'AmazonFling_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
