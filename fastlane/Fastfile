@@ -26,7 +26,7 @@ platform :ios do
 
       version = version_bump_podspec(path: "AmazonFling.podspec", version_number: version_number)
 
-      pod_lib_lint(allow_warnings: false, sources: ["https://github.com/CocoaPods/Specs.git"])
+      pod_lib_lint(allow_warnings: true, sources: ["https://github.com/CocoaPods/Specs.git"])
 
       git_commit(path: ["./AmazonFling.podspec", "./Example/Podfile.lock"], message: "#{COMMIT_MESSAGE} #{version}")
       push_to_git_remote(remote_branch: 'develop', force: false, tags: true)
@@ -38,6 +38,6 @@ platform :ios do
       sh("git push origin master --tags")
 
       sh("git fetch --tags")
-      pod_push(path: "AmazonFling.podspec", allow_warnings: false)
+      pod_push(path: "AmazonFling.podspec", allow_warnings: true)
     end
 end
