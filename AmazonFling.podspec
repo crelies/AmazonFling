@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name                    = 'AmazonFling'
-    s.version                 = '0.0.1'
+    s.version                 = '0.1.0'
     s.summary                 = 'Easily integrate the Amazon Fling SDK to discover and control your FireTV in your app.'
     
     s.description             = <<-DESC
