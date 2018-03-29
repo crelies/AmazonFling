@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
         Discovering and controlling your FireTV requires the Amazon Fling SDK.
         The SDK is not open source. That's why you won't find a pod for it.
         I wanted to integrate the Amazon Fling SDK using Cocoapods in one of my projects.
-        So, I created this pod which contains the binary of the Amazon Fling SDK.
+        So I created this pod which does the magic ;)
     DESC
     
     s.homepage                = 'https://github.com/crelies/AmazonFling'
