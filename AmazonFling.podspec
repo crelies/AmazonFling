@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
     
     s.dependency              'Bolts', '1.5.1'
     
-    s.static_framework        = true
+    s.static_framework        = false
     s.user_target_xcconfig    = { 'OTHER_LDFLAGS' => '-lc++' }
 end

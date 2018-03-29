@@ -1,8 +1,8 @@
 {
   "name": "AmazonFling",
   "version": "0.1.0",
-  "summary": "Easily integrate the Amazon Fling SDK in your apps.",
-  "description": "This pod makes it easy to use the Amazon Fling SDK in your apps.\nAmazon Fling is not open source. That's why you won't find a pod for it.\nI wanted to integrate the Amazon Fling SDK using Cocoapods in one of my projects.\nSo, I created this pod which contains the binary of the Amazon Fling SDK.",
+  "summary": "Easily integrate the Amazon Fling SDK to discover and control your FireTV in your app.",
+  "description": "Discovering and controlling your FireTV requires the Amazon Fling SDK.\nThe SDK is not open source. That's why you won't find a pod for it.\nI wanted to integrate the Amazon Fling SDK using Cocoapods in one of my projects.\nSo I created this pod which does the magic ;)",
   "homepage": "https://github.com/crelies/AmazonFling",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "ios": {
     "frameworks": [
@@ -31,7 +31,7 @@
       "1.5.1"
     ]
   },
-  "static_framework": true,
+  "static_framework": false,
   "user_target_xcconfig": {
     "OTHER_LDFLAGS": "-lc++"
   }
