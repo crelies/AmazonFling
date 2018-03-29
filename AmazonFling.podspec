@@ -9,11 +9,11 @@
 Pod::Spec.new do |s|
     s.name                    = 'AmazonFling'
     s.version                 = '0.1.0'
-    s.summary                 = 'Easily integrate the Amazon Fling SDK in your apps.'
+    s.summary                 = 'Easily integrate the Amazon Fling SDK to discover and control your FireTV in your app.'
     
     s.description             = <<-DESC
-        This pod makes it easy to use the Amazon Fling SDK in your apps.
-        Amazon Fling is not open source. That's why you won't find a pod for it.
+        Discovering and controlling your FireTV requires the Amazon Fling SDK.
+        The SDK is not open source. That's why you won't find a pod for it.
         I wanted to integrate the Amazon Fling SDK using Cocoapods in one of my projects.
         So, I created this pod which contains the binary of the Amazon Fling SDK.
     DESC

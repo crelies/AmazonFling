@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AmazonFling
+//  AmazonFling-Example
 //
 //  Created by crelies on 28.03.2018.
 //  Copyright (c) 2018 Christian Elies. All rights reserved.
