@@ -54,6 +54,10 @@ it, simply add the following line to your Podfile:
 pod 'AmazonFling'
 ```
 
+## Changelog
+
+[Amazon Fling SDK Release Notes](https://developer.amazon.com/docs/fling/release-notes.html)
+
 ## Author
 
 Christian Elies, chris.elies13@gmail.com
