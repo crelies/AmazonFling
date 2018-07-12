@@ -43,7 +43,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-Just install the Pod ;)
+You need to install `git lfs` because the Amazon Fling binary is too large for a normal git repository. You can do this via [Homebrew](https://brew.sh) using `brew install git-lfs`. For more information visit [Git LFS](https://git-lfs.github.com/).
 
 ## Installation
 
