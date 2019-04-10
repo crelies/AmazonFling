@@ -1,5 +1,7 @@
 # AmazonFling
 
+**UPDATE: Moved to gitlab (https://gitlab.com/crelies/AmazonFling)**
+
 Easily integrate the *Amazon Fling SDK* to discover and control your FireTV in your app
 
 [![Version](https://img.shields.io/cocoapods/v/AmazonFling.svg?longCache=true&style=flat-square)](http://cocoapods.org/pods/AmazonFling)
