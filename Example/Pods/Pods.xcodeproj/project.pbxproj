@@ -6,311 +6,363 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4D791D468A37ED33B73A031A20B13016 /* AmazonFling */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 16D34765EDD8AA5B4587F172C8F7A21E /* Build configuration list for PBXAggregateTarget "AmazonFling" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AmazonFling;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1C10CE942E727A7133774E807DDB815D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5B6CE558D74B49A47EBE1BBD6B31CA6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6B58A936448BB107C008199CAC01E06C /* Pods-AmazonFling_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B352889CFA2D40524CF02A9CEF73E381 /* Pods-AmazonFling_Tests-dummy.m */; };
-		921D7D84407F20C5320D521976B9037D /* Pods-AmazonFling_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B616B3CAAA70EF01B05FB2AAEFEEA5 /* Pods-AmazonFling_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA7E5ED5D5C1B96A397AE9895EB2AD12 /* Pods-AmazonFling_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91736586F8771EA8F0AF748A26EE6C9D /* Pods-AmazonFling_Example-dummy.m */; };
-		E10C22BDB82B61F73C45F9688F8B3098 /* Pods-AmazonFling_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCAD5446750A14EC11477EEB1340A86 /* Pods-AmazonFling_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D98E319EAF93E05EFD554F457B071D /* Pods-AmazonFling_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E1EF209421CA6202E18A9B8BF20CE2 /* Pods-AmazonFling_Example-dummy.m */; };
+		2BC5408DA6C348F04F3B34FED83949DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		557733589ED3D40115CC00C48CE2701F /* Pods-AmazonFling_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A1A1399B32682A1E3067D81CBFE92 /* Pods-AmazonFling_Tests-dummy.m */; };
+		A269AD7590534FC12729CF6B5C4DC971 /* Pods-AmazonFling_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A82BC7AE1F396CB1653DC85272E3BE1 /* Pods-AmazonFling_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B805BCECB064DFABFCE059102EB5E911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DCABE426AC3608D67EA67B17AD005F5F /* Pods-AmazonFling_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F31437B47F81CB74ADB4549169189F6 /* Pods-AmazonFling_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B5A87F3AEF356AA1025E9DC39021C2F /* PBXContainerItemProxy */ = {
+		018A6BFD3308674081288E9012483734 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8537905312B9CCCAD7ED2CD0FA7D6C15;
+			remoteGlobalIDString = 4D791D468A37ED33B73A031A20B13016;
+			remoteInfo = AmazonFling;
+		};
+		3544A5FC0421FE93DDF809D17B7E9000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BAD7BB369D834274167BA05934DEC2;
 			remoteInfo = "Pods-AmazonFling_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044371A6B2D18BBADF5AE0B790C10B68 /* Pods-AmazonFling_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmazonFling_Tests.modulemap"; sourceTree = "<group>"; };
-		0AAC715B50EA60B072601C4129D94143 /* Pods-AmazonFling_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmazonFling_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1B0E34C722C00CFB3E4DE9B4115EFD29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20EF43A075797BF7BD0B16DB9F0019F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3315BBEE29C15B755AE9409F9A459355 /* Pods_AmazonFling_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmazonFling_Example.framework; path = "Pods-AmazonFling_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EFC687340C8B2DD920BF085B10B4564 /* Pods-AmazonFling_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		478F32E9ECD715F8D31BE201498E8DBD /* AmazonFling.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AmazonFling.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4C6EE22B405C4A3E6D2F37DD01795274 /* Pods-AmazonFling_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EA36EBABD9707D9662E123A11B44789 /* Pods-AmazonFling_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		61DFBE1AC5AC786EB8B427D43AA5CAE3 /* Pods-AmazonFling_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C3BB92320AF41EB55A29362F35954B3 /* Pods-AmazonFling_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmazonFling_Example.modulemap"; sourceTree = "<group>"; };
-		6F06B27ED26961CDE69E0F5EEB9157F8 /* AmazonFling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmazonFling.framework; path = Frameworks/AmazonFling.framework; sourceTree = "<group>"; };
-		6F35F15295162343E3C29B208462149D /* Pods-AmazonFling_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Tests-resources.sh"; sourceTree = "<group>"; };
-		7A5046A022ADD7EB70BCE9FC5585B900 /* Pods-AmazonFling_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		815BB41C690D8BE6259E7A4AD035B1B6 /* Pods-AmazonFling_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8F5359B5493CD39D299F9E084F7E1724 /* Pods-AmazonFling_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmazonFling_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		91736586F8771EA8F0AF748A26EE6C9D /* Pods-AmazonFling_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmazonFling_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2F5C14963C20ED5462157EA4B841B0C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
-		A35E55ACDA4A276EE4680D41A963304C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B0250160B88B1834EEDA4BCBA2167235 /* Pods_AmazonFling_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmazonFling_Tests.framework; path = "Pods-AmazonFling_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B352889CFA2D40524CF02A9CEF73E381 /* Pods-AmazonFling_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmazonFling_Tests-dummy.m"; sourceTree = "<group>"; };
-		B3B3D48752DB355A0803E586A5D23558 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBCAD5446750A14EC11477EEB1340A86 /* Pods-AmazonFling_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmazonFling_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E535AE77BF7324EA275D951E0484ED60 /* Pods-AmazonFling_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Example-resources.sh"; sourceTree = "<group>"; };
-		EA41957AD29C4C6131DF78DEC7132D0D /* Pods-AmazonFling_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBC6D5EC5F95E5C14B8530A322FB2F9E /* Pods-AmazonFling_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmazonFling_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F9B616B3CAAA70EF01B05FB2AAEFEEA5 /* Pods-AmazonFling_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmazonFling_Example-umbrella.h"; sourceTree = "<group>"; };
+		01896C9882B2E173D53A4CB3CD3631D5 /* AmazonFling.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AmazonFling.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		128DAC6CA63C202A380767124C3162EF /* Pods-AmazonFling_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Tests-Info.plist"; sourceTree = "<group>"; };
+		1DECEA245E54388EBE368EE8FD704A17 /* Pods-AmazonFling_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5745CE9DC98EBDF996F7588CF2F5D2C1 /* Pods_AmazonFling_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmazonFling_Tests.framework; path = "Pods-AmazonFling_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB6818047ABD25004F22F3EC9CB42B3 /* AmazonFling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmazonFling.release.xcconfig; sourceTree = "<group>"; };
+		5EC6D5A83ECC88869BE1EA30F98ED93A /* Pods-AmazonFling_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6A82BC7AE1F396CB1653DC85272E3BE1 /* Pods-AmazonFling_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmazonFling_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6B92A6309384B2FF149981740AEABA9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F31437B47F81CB74ADB4549169189F6 /* Pods-AmazonFling_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmazonFling_Example-umbrella.h"; sourceTree = "<group>"; };
+		735033151B15D9A5FF951A74A007B312 /* AmazonFling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmazonFling.framework; path = Frameworks/AmazonFling.framework; sourceTree = "<group>"; };
+		79A1B1842470C79861DA0F6EC0C5DC4A /* Pods-AmazonFling_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmazonFling_Example.modulemap"; sourceTree = "<group>"; };
+		872147EF0B679CBCDE5086E42DC89895 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		8DE31F67D0D31FC78459A93FBB60C869 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		92143CDBA512F240011DB390691B0AAF /* Pods_AmazonFling_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmazonFling_Example.framework; path = "Pods-AmazonFling_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E1EF209421CA6202E18A9B8BF20CE2 /* Pods-AmazonFling_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmazonFling_Example-dummy.m"; sourceTree = "<group>"; };
+		9A8635E8B599A4A03076CA4CE157717C /* Pods-AmazonFling_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6DC8DA7CBB9B8C31B0F1B2D68D45677 /* AmazonFling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmazonFling.debug.xcconfig; sourceTree = "<group>"; };
+		A8D38EE286A761CBE497943712D2CF62 /* Pods-AmazonFling_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmazonFling_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF93452A93C95428826B6FBF4A75EFE9 /* Pods-AmazonFling_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4C89CDC56DAEEDDBAA441073162F035 /* Pods-AmazonFling_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6EF2B605445501A20ECE0813CCBFED6 /* Pods-AmazonFling_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmazonFling_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC4BAC0E40201ED8F5528E89A7A39234 /* Pods-AmazonFling_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmazonFling_Example-Info.plist"; sourceTree = "<group>"; };
+		CDF254D6A8C182621355488D46967102 /* Pods-AmazonFling_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmazonFling_Tests.modulemap"; sourceTree = "<group>"; };
+		D56A1A1399B32682A1E3067D81CBFE92 /* Pods-AmazonFling_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmazonFling_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB41FB27623B5DE08ADD4FF5181EA483 /* Pods-AmazonFling_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmazonFling_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D5ABB5ACE16C943FF32ECE8CD6E4F3C /* Frameworks */ = {
+		66094C3202B22D238DA3D79F7270DB30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6CE558D74B49A47EBE1BBD6B31CA6D /* Foundation.framework in Frameworks */,
+				B805BCECB064DFABFCE059102EB5E911 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		702074AF9A0A6425468C79F22E024B56 /* Frameworks */ = {
+		E0A695C9D3FEC1FD9C02096C445E5217 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C10CE942E727A7133774E807DDB815D /* Foundation.framework in Frameworks */,
+				2BC5408DA6C348F04F3B34FED83949DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		076232D4D9E7CBA6EDDFB37052FF3201 /* Frameworks */ = {
+		0F49422F47367789DD2EAB6C0FB96F02 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F06B27ED26961CDE69E0F5EEB9157F8 /* AmazonFling.framework */,
-				A2F5C14963C20ED5462157EA4B841B0C /* Bolts.framework */,
+				A6DC8DA7CBB9B8C31B0F1B2D68D45677 /* AmazonFling.debug.xcconfig */,
+				5BB6818047ABD25004F22F3EC9CB42B3 /* AmazonFling.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AmazonFling";
 			sourceTree = "<group>";
 		};
-		1A926B450A1F6D45092F326716C0F14E /* Products */ = {
+		1B22220BBD6F48A940E95A9F1078647E /* Pods-AmazonFling_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3315BBEE29C15B755AE9409F9A459355 /* Pods_AmazonFling_Example.framework */,
-				B0250160B88B1834EEDA4BCBA2167235 /* Pods_AmazonFling_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4BF4D9226E5C157E978BA25A6ECEF8DD /* Pods-AmazonFling_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1B0E34C722C00CFB3E4DE9B4115EFD29 /* Info.plist */,
-				044371A6B2D18BBADF5AE0B790C10B68 /* Pods-AmazonFling_Tests.modulemap */,
-				0AAC715B50EA60B072601C4129D94143 /* Pods-AmazonFling_Tests-acknowledgements.markdown */,
-				7A5046A022ADD7EB70BCE9FC5585B900 /* Pods-AmazonFling_Tests-acknowledgements.plist */,
-				B352889CFA2D40524CF02A9CEF73E381 /* Pods-AmazonFling_Tests-dummy.m */,
-				5EA36EBABD9707D9662E123A11B44789 /* Pods-AmazonFling_Tests-frameworks.sh */,
-				6F35F15295162343E3C29B208462149D /* Pods-AmazonFling_Tests-resources.sh */,
-				CBCAD5446750A14EC11477EEB1340A86 /* Pods-AmazonFling_Tests-umbrella.h */,
-				4C6EE22B405C4A3E6D2F37DD01795274 /* Pods-AmazonFling_Tests.debug.xcconfig */,
-				61DFBE1AC5AC786EB8B427D43AA5CAE3 /* Pods-AmazonFling_Tests.release.xcconfig */,
+				CDF254D6A8C182621355488D46967102 /* Pods-AmazonFling_Tests.modulemap */,
+				C6EF2B605445501A20ECE0813CCBFED6 /* Pods-AmazonFling_Tests-acknowledgements.markdown */,
+				AF93452A93C95428826B6FBF4A75EFE9 /* Pods-AmazonFling_Tests-acknowledgements.plist */,
+				D56A1A1399B32682A1E3067D81CBFE92 /* Pods-AmazonFling_Tests-dummy.m */,
+				128DAC6CA63C202A380767124C3162EF /* Pods-AmazonFling_Tests-Info.plist */,
+				6A82BC7AE1F396CB1653DC85272E3BE1 /* Pods-AmazonFling_Tests-umbrella.h */,
+				C4C89CDC56DAEEDDBAA441073162F035 /* Pods-AmazonFling_Tests.debug.xcconfig */,
+				DB41FB27623B5DE08ADD4FF5181EA483 /* Pods-AmazonFling_Tests.release.xcconfig */,
 			);
 			name = "Pods-AmazonFling_Tests";
 			path = "Target Support Files/Pods-AmazonFling_Tests";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		25C58ADA199643A81E977FFC973D2AB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				900464E6B9262C66D66BAD223563A028 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1A926B450A1F6D45092F326716C0F14E /* Products */,
-				C3FDD8E224E95FE8504A7AF9F24741E2 /* Targets Support Files */,
+				92143CDBA512F240011DB390691B0AAF /* Pods_AmazonFling_Example.framework */,
+				5745CE9DC98EBDF996F7588CF2F5D2C1 /* Pods_AmazonFling_Tests.framework */,
 			);
+			name = Products;
 			sourceTree = "<group>";
 		};
-		8F8926CEAD5971B066E4BB3792665860 /* Pods-AmazonFling_Example */ = {
+		3F206F65C37EB44C6AE6EF8D165EBCFC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B3B3D48752DB355A0803E586A5D23558 /* Info.plist */,
-				6C3BB92320AF41EB55A29362F35954B3 /* Pods-AmazonFling_Example.modulemap */,
-				8F5359B5493CD39D299F9E084F7E1724 /* Pods-AmazonFling_Example-acknowledgements.markdown */,
-				EA41957AD29C4C6131DF78DEC7132D0D /* Pods-AmazonFling_Example-acknowledgements.plist */,
-				91736586F8771EA8F0AF748A26EE6C9D /* Pods-AmazonFling_Example-dummy.m */,
-				EBC6D5EC5F95E5C14B8530A322FB2F9E /* Pods-AmazonFling_Example-frameworks.sh */,
-				E535AE77BF7324EA275D951E0484ED60 /* Pods-AmazonFling_Example-resources.sh */,
-				F9B616B3CAAA70EF01B05FB2AAEFEEA5 /* Pods-AmazonFling_Example-umbrella.h */,
-				3EFC687340C8B2DD920BF085B10B4564 /* Pods-AmazonFling_Example.debug.xcconfig */,
-				815BB41C690D8BE6259E7A4AD035B1B6 /* Pods-AmazonFling_Example.release.xcconfig */,
-			);
-			name = "Pods-AmazonFling_Example";
-			path = "Target Support Files/Pods-AmazonFling_Example";
-			sourceTree = "<group>";
-		};
-		900464E6B9262C66D66BAD223563A028 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E8C57CE0E400EAC5CA851A127C6C8E12 /* AmazonFling */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C3FDD8E224E95FE8504A7AF9F24741E2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8F8926CEAD5971B066E4BB3792665860 /* Pods-AmazonFling_Example */,
-				4BF4D9226E5C157E978BA25A6ECEF8DD /* Pods-AmazonFling_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C5BA3DF19997BEBA70BAE878A6754F43 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				478F32E9ECD715F8D31BE201498E8DBD /* AmazonFling.podspec */,
-				A35E55ACDA4A276EE4680D41A963304C /* LICENSE */,
-				20EF43A075797BF7BD0B16DB9F0019F1 /* README.md */,
+				01896C9882B2E173D53A4CB3CD3631D5 /* AmazonFling.podspec */,
+				6B92A6309384B2FF149981740AEABA9F /* LICENSE */,
+				8DE31F67D0D31FC78459A93FBB60C869 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		42124AC1CF51125DC61FEB3B079B46D5 /* AmazonFling */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E8C57CE0E400EAC5CA851A127C6C8E12 /* AmazonFling */ = {
-			isa = PBXGroup;
-			children = (
-				076232D4D9E7CBA6EDDFB37052FF3201 /* Frameworks */,
-				C5BA3DF19997BEBA70BAE878A6754F43 /* Pod */,
+				AF5CD43785ADB20CED194C1299975ABE /* Frameworks */,
+				3F206F65C37EB44C6AE6EF8D165EBCFC /* Pod */,
+				0F49422F47367789DD2EAB6C0FB96F02 /* Support Files */,
 			);
 			name = AmazonFling;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		A26E80133F15BC81897237AC04D4F720 /* Pods-AmazonFling_Example */ = {
+			isa = PBXGroup;
+			children = (
+				79A1B1842470C79861DA0F6EC0C5DC4A /* Pods-AmazonFling_Example.modulemap */,
+				A8D38EE286A761CBE497943712D2CF62 /* Pods-AmazonFling_Example-acknowledgements.markdown */,
+				9A8635E8B599A4A03076CA4CE157717C /* Pods-AmazonFling_Example-acknowledgements.plist */,
+				93E1EF209421CA6202E18A9B8BF20CE2 /* Pods-AmazonFling_Example-dummy.m */,
+				CC4BAC0E40201ED8F5528E89A7A39234 /* Pods-AmazonFling_Example-Info.plist */,
+				6F31437B47F81CB74ADB4549169189F6 /* Pods-AmazonFling_Example-umbrella.h */,
+				5EC6D5A83ECC88869BE1EA30F98ED93A /* Pods-AmazonFling_Example.debug.xcconfig */,
+				1DECEA245E54388EBE368EE8FD704A17 /* Pods-AmazonFling_Example.release.xcconfig */,
+			);
+			name = "Pods-AmazonFling_Example";
+			path = "Target Support Files/Pods-AmazonFling_Example";
+			sourceTree = "<group>";
+		};
+		AF5CD43785ADB20CED194C1299975ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735033151B15D9A5FF951A74A007B312 /* AmazonFling.framework */,
+				872147EF0B679CBCDE5086E42DC89895 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBEE7D2B13B674FBD22B74020D019AEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26E80133F15BC81897237AC04D4F720 /* Pods-AmazonFling_Example */,
+				1B22220BBD6F48A940E95A9F1078647E /* Pods-AmazonFling_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E7C1686DBFD0191E87F777D3853E82AF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				25C58ADA199643A81E977FFC973D2AB1 /* Products */,
+				CBEE7D2B13B674FBD22B74020D019AEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7C1686DBFD0191E87F777D3853E82AF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42124AC1CF51125DC61FEB3B079B46D5 /* AmazonFling */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B50F89CA0E9EDE4659EEAD5353423F1 /* Headers */ = {
+		050B5064492FBF117B20C1BBD032849F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921D7D84407F20C5320D521976B9037D /* Pods-AmazonFling_Example-umbrella.h in Headers */,
+				DCABE426AC3608D67EA67B17AD005F5F /* Pods-AmazonFling_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B613FBAC7067D9CC12F5BEE1FA5CE11 /* Headers */ = {
+		1D7A7F69A6D1895F1AA3AD45E8C172C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10C22BDB82B61F73C45F9688F8B3098 /* Pods-AmazonFling_Tests-umbrella.h in Headers */,
+				A269AD7590534FC12729CF6B5C4DC971 /* Pods-AmazonFling_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5A1D06C0927F60AD0BD087C0F911F3D4 /* Pods-AmazonFling_Tests */ = {
+		03698FE7617ABFB3AAD77829CEB2F038 /* Pods-AmazonFling_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7FCAF6D0E89D526C467C8B361B59634 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Tests" */;
+			buildConfigurationList = 3C310F8920A935F809C5C3C742907090 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Tests" */;
 			buildPhases = (
-				780BECA51E12C928CFD742E18A0C69CD /* Sources */,
-				702074AF9A0A6425468C79F22E024B56 /* Frameworks */,
-				6B613FBAC7067D9CC12F5BEE1FA5CE11 /* Headers */,
+				1D7A7F69A6D1895F1AA3AD45E8C172C3 /* Headers */,
+				6A2AA30DA681EFCC88E9C1A4A0D9B1FD /* Sources */,
+				66094C3202B22D238DA3D79F7270DB30 /* Frameworks */,
+				FA176CF7362EBA884BB41ED9044FB353 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4FDE38E53817370934ED48045CBA0013 /* PBXTargetDependency */,
+				236526FE99BB35A2583AEBFD8BF803A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-AmazonFling_Tests";
 			productName = "Pods-AmazonFling_Tests";
-			productReference = B0250160B88B1834EEDA4BCBA2167235 /* Pods_AmazonFling_Tests.framework */;
+			productReference = 5745CE9DC98EBDF996F7588CF2F5D2C1 /* Pods_AmazonFling_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8537905312B9CCCAD7ED2CD0FA7D6C15 /* Pods-AmazonFling_Example */ = {
+		F4BAD7BB369D834274167BA05934DEC2 /* Pods-AmazonFling_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 850E21AAC1314023D0AB8BB0D381BD0A /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Example" */;
+			buildConfigurationList = 7248FA71CE87780FF025F7446CFF2C41 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Example" */;
 			buildPhases = (
-				7D82752FD744C9ECA0D1D3C41E8AF2DA /* Sources */,
-				3D5ABB5ACE16C943FF32ECE8CD6E4F3C /* Frameworks */,
-				3B50F89CA0E9EDE4659EEAD5353423F1 /* Headers */,
+				050B5064492FBF117B20C1BBD032849F /* Headers */,
+				1814C20582F7ED0C0FB92480011B1734 /* Sources */,
+				E0A695C9D3FEC1FD9C02096C445E5217 /* Frameworks */,
+				43982CDE49CB454694F891DDAC3D7060 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0003B05B30D89410CE37CCE20CABDCD8 /* PBXTargetDependency */,
 			);
 			name = "Pods-AmazonFling_Example";
 			productName = "Pods-AmazonFling_Example";
-			productReference = 3315BBEE29C15B755AE9409F9A459355 /* Pods_AmazonFling_Example.framework */;
+			productReference = 92143CDBA512F240011DB390691B0AAF /* Pods_AmazonFling_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1A926B450A1F6D45092F326716C0F14E /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 25C58ADA199643A81E977FFC973D2AB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8537905312B9CCCAD7ED2CD0FA7D6C15 /* Pods-AmazonFling_Example */,
-				5A1D06C0927F60AD0BD087C0F911F3D4 /* Pods-AmazonFling_Tests */,
+				4D791D468A37ED33B73A031A20B13016 /* AmazonFling */,
+				F4BAD7BB369D834274167BA05934DEC2 /* Pods-AmazonFling_Example */,
+				03698FE7617ABFB3AAD77829CEB2F038 /* Pods-AmazonFling_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		780BECA51E12C928CFD742E18A0C69CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		43982CDE49CB454694F891DDAC3D7060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B58A936448BB107C008199CAC01E06C /* Pods-AmazonFling_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D82752FD744C9ECA0D1D3C41E8AF2DA /* Sources */ = {
+		FA176CF7362EBA884BB41ED9044FB353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1814C20582F7ED0C0FB92480011B1734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7E5ED5D5C1B96A397AE9895EB2AD12 /* Pods-AmazonFling_Example-dummy.m in Sources */,
+				15D98E319EAF93E05EFD554F457B071D /* Pods-AmazonFling_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2AA30DA681EFCC88E9C1A4A0D9B1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557733589ED3D40115CC00C48CE2701F /* Pods-AmazonFling_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4FDE38E53817370934ED48045CBA0013 /* PBXTargetDependency */ = {
+		0003B05B30D89410CE37CCE20CABDCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AmazonFling;
+			target = 4D791D468A37ED33B73A031A20B13016 /* AmazonFling */;
+			targetProxy = 018A6BFD3308674081288E9012483734 /* PBXContainerItemProxy */;
+		};
+		236526FE99BB35A2583AEBFD8BF803A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AmazonFling_Example";
-			target = 8537905312B9CCCAD7ED2CD0FA7D6C15 /* Pods-AmazonFling_Example */;
-			targetProxy = 0B5A87F3AEF356AA1025E9DC39021C2F /* PBXContainerItemProxy */;
+			target = F4BAD7BB369D834274167BA05934DEC2 /* Pods-AmazonFling_Example */;
+			targetProxy = 3544A5FC0421FE93DDF809D17B7E9000 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		32F5DAC48A3B0B6D15448F755F4682FD /* Debug */ = {
+		1DE382E68C8FB2F990ACE48D3B0CA1D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6EE22B405C4A3E6D2F37DD01795274 /* Pods-AmazonFling_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5EC6D5A83ECC88869BE1EA30F98ED93A /* Pods-AmazonFling_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -322,40 +374,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Tests/Pods-AmazonFling_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		365A1C5304C7839C67ECF8EEB815B5CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EFC687340C8B2DD920BF085B10B4564 /* Pods-AmazonFling_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Example/Pods-AmazonFling_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,9 +393,9 @@
 			};
 			name = Debug;
 		};
-		84BAAA2FE0D7BC1330775B30F9F94BCB /* Release */ = {
+		6C75054AB56299FABCCD3CCD6F6048E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61DFBE1AC5AC786EB8B427D43AA5CAE3 /* Pods-AmazonFling_Tests.release.xcconfig */;
+			baseConfigurationReference = C4C89CDC56DAEEDDBAA441073162F035 /* Pods-AmazonFling_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -388,12 +407,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Tests/Pods-AmazonFling_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Tests/Pods-AmazonFling_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2C6978451815F4C8609F306DA2D126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DECEA245E54388EBE368EE8FD704A17 /* Pods-AmazonFling_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Example/Pods-AmazonFling_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Example/Pods-AmazonFling_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -408,7 +460,7 @@
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,8 +492,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -462,76 +572,48 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		D20F8F8C4EBA443C564AAF550B0881EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB6818047ABD25004F22F3EC9CB42B3 /* AmazonFling.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B5570EA08FF0FCC343E01C57D00751B4 /* Release */ = {
+		F20FB520B9CF915CD3D54588CF013830 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 815BB41C690D8BE6259E7A4AD035B1B6 /* Pods-AmazonFling_Example.release.xcconfig */;
+			baseConfigurationReference = A6DC8DA7CBB9B8C31B0F1B2D68D45677 /* AmazonFling.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5D3ECE8844FB6CDBC99155F142139E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB41FB27623B5DE08ADD4FF5181EA483 /* Pods-AmazonFling_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -543,12 +625,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmazonFling_Tests/Pods-AmazonFling_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Example/Pods-AmazonFling_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AmazonFling_Tests/Pods-AmazonFling_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -566,34 +648,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		16D34765EDD8AA5B4587F172C8F7A21E /* Build configuration list for PBXAggregateTarget "AmazonFling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				F20FB520B9CF915CD3D54588CF013830 /* Debug */,
+				D20F8F8C4EBA443C564AAF550B0881EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		850E21AAC1314023D0AB8BB0D381BD0A /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Example" */ = {
+		3C310F8920A935F809C5C3C742907090 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				365A1C5304C7839C67ECF8EEB815B5CF /* Debug */,
-				B5570EA08FF0FCC343E01C57D00751B4 /* Release */,
+				6C75054AB56299FABCCD3CCD6F6048E2 /* Debug */,
+				F5D3ECE8844FB6CDBC99155F142139E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7FCAF6D0E89D526C467C8B361B59634 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32F5DAC48A3B0B6D15448F755F4682FD /* Debug */,
-				84BAAA2FE0D7BC1330775B30F9F94BCB /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7248FA71CE87780FF025F7446CFF2C41 /* Build configuration list for PBXNativeTarget "Pods-AmazonFling_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE382E68C8FB2F990ACE48D3B0CA1D5 /* Debug */,
+				A2C6978451815F4C8609F306DA2D126A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
