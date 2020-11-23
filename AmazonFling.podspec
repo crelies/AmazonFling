@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name                    = 'AmazonFling'
-    s.version                 = '1.3.4-hotfix.1'
+    s.version                 = '1.4.0'
     s.summary                 = 'Easily integrate the Amazon Fling SDK to discover and control your FireTV in your app.'
     
     s.description             = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '9.0'
     
-    s.ios.frameworks          = 'CFNetwork', 'Security', 'SystemConfiguration'
+    s.ios.frameworks          = 'CFNetwork', 'Security', 'SystemConfiguration', 'WebKit'
     s.ios.vendored_frameworks = 'Frameworks/AmazonFling.framework', 'Frameworks/Bolts.framework'
     
     s.user_target_xcconfig    = { 'OTHER_LDFLAGS' => '$(inherited) -lc++' }
